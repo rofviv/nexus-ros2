@@ -1,0 +1,255 @@
+[0.026s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.365s] -- The CXX compiler identification is GNU 11.4.0
+[0.371s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.784s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.789s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.795s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.406s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.408s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.443s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.459s] -- Found PythonExtra: .so  
+[1.501s] -- Configuring done
+[1.523s] -- Generating done
+[1.530s] -- Build files have been written to: /home/leyla/Desktop/nexus_ws/build/rosbridge_msgs
+[1.535s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs
+[1.536s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/rosbridge_msgs -- -j20 -l20
+[1.573s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.581s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.590s] [  5%] Built target ament_cmake_python_copy_rosbridge_msgs
+[1.770s] running egg_info
+[1.770s] creating rosbridge_msgs.egg-info
+[1.770s] writing rosbridge_msgs.egg-info/PKG-INFO
+[1.771s] writing dependency_links to rosbridge_msgs.egg-info/dependency_links.txt
+[1.771s] writing top-level names to rosbridge_msgs.egg-info/top_level.txt
+[1.771s] writing manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[1.772s] reading manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[1.772s] writing manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[1.797s] [  5%] Built target ament_cmake_python_build_rosbridge_msgs_egg
+[1.804s] [  5%] Built target rosbridge_msgs__cpp
+[1.814s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.815s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.815s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.831s] [ 15%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_clients__functions.c.o[0m
+[1.834s] [ 17%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_client__functions.c.o[0m
+[1.905s] [ 20%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_generator_c.so[0m
+[1.939s] [ 20%] Built target rosbridge_msgs__rosidl_generator_c
+[1.950s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.952s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.952s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.037s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp.o[0m
+[2.037s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_client__type_support.cpp.o[0m
+[2.109s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[2.113s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[2.133s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_client__type_support.cpp.o[0m
+[2.136s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_clients__type_support.cpp.o[0m
+[2.215s] [ 46%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_client__type_support.c.o[0m
+[2.217s] [ 48%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_clients__type_support.c.o[0m
+[2.226s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[2.229s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[2.277s] [ 56%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.289s] [ 58%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_c.so[0m
+[2.329s] [ 58%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[2.334s] [ 61%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_clients__type_support_c.cpp.o[0m
+[2.336s] [ 64%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_client__type_support_c.cpp.o[0m
+[2.379s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_c
+[2.435s] [ 66%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_cpp.so[0m
+[2.501s] [ 66%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[2.629s] [ 69%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.661s] [ 71%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.703s] [ 71%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[2.733s] [ 71%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[2.746s] [ 74%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.801s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[2.822s] [ 74%] Built target rosbridge_msgs
+[2.842s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.111s] [ 76%] Built target rosbridge_msgs__py
+[3.130s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_clients_s.c.o[0m
+[3.131s] [ 82%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_client_s.c.o[0m
+[3.242s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/librosbridge_msgs__rosidl_generator_py.so[0m
+[3.273s] [ 84%] Built target rosbridge_msgs__rosidl_generator_py
+[3.288s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.288s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.291s] [ 92%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.352s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.353s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.357s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.377s] [100%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[3.378s] [100%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[3.382s] [100%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.392s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/rosbridge_msgs -- -j20 -l20
+[3.398s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/rosbridge_msgs
+[3.399s] -- Install configuration: ""
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.c
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.h
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.c
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[3.400s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.h
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.h
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.h
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[3.401s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[3.401s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so" to ""
+[3.401s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.401s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.401s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[3.402s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.402s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.402s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.402s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.402s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.hpp
+[3.403s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.hpp
+[3.403s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.403s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.404s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/dds_fastrtps
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.404s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.404s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.404s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.404s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.c
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.c
+[3.404s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[3.405s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[3.405s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so" to ""
+[3.405s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[3.405s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[3.405s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.cpp
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[3.405s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.405s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[3.405s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so" to ""
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.0.1-py3.10.egg-info
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.406s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/__init__.py
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client_s.c
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client.py
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients_s.c
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients.py
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/librosbridge_msgs__rosidl_generator_py.so
+[3.407s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.442s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs'...
+[3.442s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py'...
+[3.442s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg'...
+[3.442s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/__init__.py'...
+[3.442s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client.py'...
+[3.442s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients.py'...
+[3.446s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.446s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.446s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.447s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.447s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.447s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.447s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_py.so
+[3.448s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_py.so" to ""
+[3.448s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[3.448s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[3.449s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[3.449s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[3.449s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[3.449s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[3.451s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[3.451s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport.cmake
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.452s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cppExport.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.453s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[3.456s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.456s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[3.457s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[3.464s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/rosbridge_msgs

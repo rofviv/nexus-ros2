@@ -1,0 +1,254 @@
+[0.023s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/ucb_interface -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/ucb_interface
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.360s] -- The CXX compiler identification is GNU 11.4.0
+[0.366s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.509s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.648s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.749s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.833s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.069s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.517s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.519s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.547s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.547s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.547s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.547s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.565s] -- Found PythonExtra: .so  
+[1.616s] -- Configuring done
+[1.635s] -- Generating done
+[1.642s] -- Build files have been written to: /home/leyla/Desktop/nexus_ws/build/ucb_interface
+[1.648s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/ucb_interface -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/ucb_interface
+[1.650s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/ucb_interface -- -j20 -l20
+[1.686s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.696s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.705s] [  5%] Built target ament_cmake_python_copy_ucb_interface
+[1.910s] [  7%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/msg/detail/motor__functions.c.o[0m
+[1.914s] [ 10%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/msg/detail/actuador__functions.c.o[0m
+[1.953s] [ 12%] [32m[1mLinking C shared library libucb_interface__rosidl_generator_c.so[0m
+[1.982s] running egg_info
+[1.983s] creating ucb_interface.egg-info
+[1.983s] writing ucb_interface.egg-info/PKG-INFO
+[1.983s] writing dependency_links to ucb_interface.egg-info/dependency_links.txt
+[1.983s] writing top-level names to ucb_interface.egg-info/top_level.txt
+[1.984s] writing manifest file 'ucb_interface.egg-info/SOURCES.txt'
+[1.986s] reading manifest file 'ucb_interface.egg-info/SOURCES.txt'
+[1.987s] writing manifest file 'ucb_interface.egg-info/SOURCES.txt'
+[1.988s] [ 12%] Built target ucb_interface__cpp
+[1.988s] [ 12%] Built target ucb_interface__rosidl_generator_c
+[1.996s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.996s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.996s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.997s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.997s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.035s] [ 25%] Built target ament_cmake_python_build_ucb_interface_egg
+[2.045s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.316s] [ 30%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/msg/detail/motor__type_support.cpp.o[0m
+[2.324s] [ 33%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/msg/detail/actuador__type_support.cpp.o[0m
+[2.333s] [ 35%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/msg/detail/motor__type_support_c.cpp.o[0m
+[2.346s] [ 38%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/msg/motor__type_support.cpp.o[0m
+[2.346s] [ 41%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/msg/detail/actuador__type_support_c.cpp.o[0m
+[2.349s] [ 43%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/msg/detail/motor__type_support.c.o[0m
+[2.350s] [ 46%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/msg/detail/dds_fastrtps/motor__type_support.cpp.o[0m
+[2.354s] [ 48%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/msg/actuador__type_support.cpp.o[0m
+[2.359s] [ 51%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/msg/actuador__type_support.cpp.o[0m
+[2.360s] [ 56%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/msg/motor__type_support.cpp.o[0m
+[2.364s] [ 58%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/msg/detail/actuador__type_support.c.o[0m
+[2.364s] [ 56%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/msg/detail/dds_fastrtps/actuador__type_support.cpp.o[0m
+[2.422s] [ 61%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_c.so[0m
+[2.427s] [ 64%] [32m[1mLinking C shared library libucb_interface__rosidl_typesupport_introspection_c.so[0m
+[2.489s] [ 64%] Built target ucb_interface__rosidl_typesupport_introspection_c
+[2.496s] [ 64%] Built target ucb_interface__rosidl_typesupport_c
+[2.656s] [ 66%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_cpp.so[0m
+[2.696s] [ 66%] Built target ucb_interface__rosidl_typesupport_cpp
+[2.754s] [ 69%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_fastrtps_c.so[0m
+[2.777s] [ 71%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.807s] [ 74%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.823s] [ 74%] Built target ucb_interface__rosidl_typesupport_fastrtps_c
+[2.824s] [ 74%] Built target ucb_interface__rosidl_typesupport_introspection_cpp
+[2.863s] [ 74%] Built target ucb_interface__rosidl_typesupport_fastrtps_cpp
+[2.882s] [ 74%] Built target ucb_interface
+[2.900s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.182s] [ 76%] Built target ucb_interface__py
+[3.202s] [ 79%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/msg/_actuador_s.c.o[0m
+[3.205s] [ 82%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/msg/_motor_s.c.o[0m
+[3.297s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/libucb_interface__rosidl_generator_py.so[0m
+[3.341s] [ 84%] Built target ucb_interface__rosidl_generator_py
+[3.355s] [ 87%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.358s] [ 89%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.362s] [ 92%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.423s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.435s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.451s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.466s] [100%] Built target ucb_interface__rosidl_typesupport_c__pyext
+[3.478s] [100%] Built target ucb_interface__rosidl_typesupport_introspection_c__pyext
+[3.490s] [100%] Built target ucb_interface__rosidl_typesupport_fastrtps_c__pyext
+[3.503s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/ucb_interface -- -j20 -l20
+[3.509s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/ucb_interface
+[3.514s] -- Install configuration: ""
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ament_index/resource_index/rosidl_interfaces/ucb_interface
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_generator_c__visibility_control.h
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__functions.c
+[3.515s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__functions.c
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__type_support.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__struct.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__functions.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__type_support.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__struct.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__functions.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/motor.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/actuador.h
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/library_path.sh
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/library_path.dsv
+[3.516s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_c.so
+[3.516s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_c.so" to ""
+[3.517s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.517s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.517s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.517s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[3.517s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__rosidl_typesupport_fastrtps_c.h
+[3.517s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.517s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_c.so
+[3.517s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[3.518s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.518s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.518s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__rosidl_typesupport_introspection_c.h
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__type_support.c
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__type_support.c
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.518s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_c.so
+[3.520s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_c.so" to ""
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_c.so
+[3.523s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_c.so" to ""
+[3.523s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.523s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/actuador.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/motor.hpp
+[3.523s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__struct.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__type_support.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__traits.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__struct.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__type_support.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__traits.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__builder.hpp
+[3.523s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__builder.hpp
+[3.523s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.524s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.524s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/dds_fastrtps
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_cpp.so
+[3.524s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.524s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[3.524s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[3.524s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__rosidl_typesupport_introspection_cpp.hpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__type_support.cpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/actuador__type_support.cpp
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_cpp.so
+[3.524s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_cpp.so
+[3.524s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_cpp.so" to ""
+[3.524s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/pythonpath.sh
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/pythonpath.dsv
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/top_level.txt
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/__init__.py
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/libucb_interface__rosidl_generator_py.so
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/__init__.py
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_motor_s.c
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_motor.py
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_actuador_s.c
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_actuador.py
+[3.525s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_c.c
+[3.573s] Listing '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface'...
+[3.574s] Compiling '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/__init__.py'...
+[3.574s] Listing '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg'...
+[3.574s] Compiling '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/__init__.py'...
+[3.574s] Compiling '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_actuador.py'...
+[3.574s] Compiling '/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_motor.py'...
+[3.578s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.578s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.578s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.578s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.578s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.579s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.579s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_py.so
+[3.580s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_py.so" to ""
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/msg/Motor.idl
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/msg/Actuador.idl
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/msg/Motor.msg
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/msg/Actuador.msg
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ament_index/resource_index/package_run_dependencies/ucb_interface
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ament_index/resource_index/parent_prefix_path/ucb_interface
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.sh
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.dsv
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/path.sh
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/environment/path.dsv
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/local_setup.bash
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/local_setup.sh
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/local_setup.zsh
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/local_setup.dsv
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/package.dsv
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ament_index/resource_index/packages/ucb_interface
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cExport.cmake
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cExport-noconfig.cmake
+[3.580s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cExport.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cExport.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cExport-noconfig.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cppExport.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.581s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cppExport.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_pyExport.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig-version.cmake
+[3.582s] -- Installing: /home/leyla/Desktop/nexus_ws/install/ucb_interface/share/ucb_interface/package.xml
+[3.584s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs:/home/leyla/Desktop/nexus_ws/install/rosbridge_suite:/home/leyla/Desktop/nexus_ws/install/rosbridge_server:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs:/home/leyla/Desktop/nexus_ws/install/rosapi:/home/leyla/Desktop/nexus_ws/install/rosbridge_library:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs:/home/leyla/Desktop/nexus_ws/install/robot_description:/home/leyla/Desktop/robot_con_ws/install/robot_description:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/robot_con_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:/home/leyla/Desktop/robot_con_ws/install/ensamblaje_jpac2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Documents/ejercicio2_ws/install/test_move:/home/leyla/Documents/ejercicio2_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/ucb_interface

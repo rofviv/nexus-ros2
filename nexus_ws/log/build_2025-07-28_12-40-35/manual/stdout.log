@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/manual/manual.egg-info/PKG-INFO
+writing dependency_links to ../../build/manual/manual.egg-info/dependency_links.txt
+writing entry points to ../../build/manual/manual.egg-info/entry_points.txt
+writing requirements to ../../build/manual/manual.egg-info/requires.txt
+writing top-level names to ../../build/manual/manual.egg-info/top_level.txt
+reading manifest file '../../build/manual/manual.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/manual/manual.egg-info/SOURCES.txt'
+running build
+running build_py
+copying manual/control.py -> /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual
+running install
+running install_lib
+copying /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual/control.py -> /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual
+byte-compiling /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual/control.py to control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/manual/manual.egg-info to /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/leyla/Desktop/nexus_ws/install/manual/lib/manual
+Installing joystick script to /home/leyla/Desktop/nexus_ws/install/manual/lib/manual
+writing list of installed files to '/home/leyla/Desktop/nexus_ws/build/manual/install.log'

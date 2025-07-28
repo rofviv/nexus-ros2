@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/manual/manual.egg-info
+writing ../../build/manual/manual.egg-info/PKG-INFO
+writing dependency_links to ../../build/manual/manual.egg-info/dependency_links.txt
+writing entry points to ../../build/manual/manual.egg-info/entry_points.txt
+writing requirements to ../../build/manual/manual.egg-info/requires.txt
+writing top-level names to ../../build/manual/manual.egg-info/top_level.txt
+writing manifest file '../../build/manual/manual.egg-info/SOURCES.txt'
+reading manifest file '../../build/manual/manual.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/manual/manual.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leyla/Desktop/nexus_ws/build/manual/build
+creating /home/leyla/Desktop/nexus_ws/build/manual/build/lib
+creating /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual
+copying manual/__init__.py -> /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual
+copying manual/control.py -> /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual
+copying manual/joystick.py -> /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual
+running install
+running install_lib
+creating /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual
+copying /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual/__init__.py -> /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual
+copying /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual/control.py -> /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual
+copying /home/leyla/Desktop/nexus_ws/build/manual/build/lib/manual/joystick.py -> /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual
+byte-compiling /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual/control.py to control.cpython-310.pyc
+byte-compiling /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual/joystick.py to joystick.cpython-310.pyc
+running install_data
+creating /home/leyla/Desktop/nexus_ws/install/manual/share/ament_index
+creating /home/leyla/Desktop/nexus_ws/install/manual/share/ament_index/resource_index
+creating /home/leyla/Desktop/nexus_ws/install/manual/share/ament_index/resource_index/packages
+copying resource/manual -> /home/leyla/Desktop/nexus_ws/install/manual/share/ament_index/resource_index/packages
+copying package.xml -> /home/leyla/Desktop/nexus_ws/install/manual/share/manual
+creating /home/leyla/Desktop/nexus_ws/install/manual/share/manual/launch
+copying launch/manual.launch.py -> /home/leyla/Desktop/nexus_ws/install/manual/share/manual/launch
+running install_egg_info
+Copying ../../build/manual/manual.egg-info to /home/leyla/Desktop/nexus_ws/install/manual/lib/python3.10/site-packages/manual-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/leyla/Desktop/nexus_ws/install/manual/lib/manual
+Installing joystick script to /home/leyla/Desktop/nexus_ws/install/manual/lib/manual
+writing list of installed files to '/home/leyla/Desktop/nexus_ws/build/manual/install.log'

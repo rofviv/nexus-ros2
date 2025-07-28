@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c2b938d51c7c5dd757a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ucb_interface__py",
+					"jsonFile" : "directory-ucb_interface__py-28f7caa30809fa90ac01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/leyla/Desktop/nexus_ws/build/ucb_interface/ucb_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ucb_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ucb_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ucb_interface_egg-4d9ae4411084cc7a93e5.json",
+					"name" : "ament_cmake_python_build_ucb_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ucb_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ucb_interface-01cea88e8e2990b75de1.json",
+					"name" : "ament_cmake_python_copy_ucb_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface-f53b4ed2c5a0797f1100.json",
+					"name" : "ucb_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__cpp-3434582c0bfa6ab394aa.json",
+					"name" : "ucb_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ucb_interface__py::@b8c714724c153f70e899",
+					"jsonFile" : "target-ucb_interface__py-c8cf24d025143d591039.json",
+					"name" : "ucb_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_generator_c-c85c6dc2788e6a808668.json",
+					"name" : "ucb_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_generator_py-3687b3dd8f3568fe084c.json",
+					"name" : "ucb_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_c-599e22d5b6c3ec9ebcf1.json",
+					"name" : "ucb_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_c__pyext-430774a022e755b70f68.json",
+					"name" : "ucb_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_cpp-0eb2703506ca2eb7c76e.json",
+					"name" : "ucb_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_c-fbc600707ba9967be190.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_c__pyext-c98d6e12261f4585caa6.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_cpp-09e232ef01abb267eb85.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_c-b42fa1c92abedebe7bed.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_c__pyext-e788720890d7e5568885.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_cpp-e4147420ac4a16484a3a.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface_uninstall-d1f2ef9fef744eb5b45a.json",
+					"name" : "ucb_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cfd6748c63a552f73120.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leyla/Desktop/nexus_ws/build/ucb_interface",
+		"source" : "/home/leyla/Desktop/nexus_ws/src/ucb_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
