@@ -60,7 +60,7 @@ ros2 launch robot_description view_robot.py
 
 ##  Notas
 
-- Se debe cerrar la ventana que permite manipular el JPAC2 manualmente, para que los topicos publicados de joistick haga que las ruedas se muevan hacia adelante o atras en RVIZ
+- Se debe cerrar la ventana que permite manipular el JPAC2 manualmente, para que los topicos publicados de JOISTICK FISICO haga que las ruedas se muevan hacia adelante o atras en RVIZ
 
 - Se debe modificar el archivo estado.txt para puerta, reversa, freno y presionar CTRL+S para guardar los cambios y este se visualize en consola o escuchando el topico actuador_manual (ros2 topic echo /actuador_manual)
 ---
