@@ -1,0 +1,3 @@
+puerta=1
+reversa=0
+freno=0
