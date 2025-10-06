@@ -68,7 +68,7 @@ ros2 launch robot_description view_robot.py
 
 
 
-##  Navegation
+##  Navegation 
 
 ## Terminal 1 – jpac2_ws
 
@@ -84,5 +84,27 @@ source install/setup.bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True 
 ```
 
+##  Navegacion - navegacion_ws
+
+## Terminal 1 – gazebo
+
+```bash
+colcon build 
+source install/setup.bash
+ros2 launch robot_description gazebo.launch.py
+ros2 launch robot_description pc2_to_scan.launch.py 
+```
+## Terminal 2 – cartographer
+```bash
+source install/setup.bash
+ros2 launch robot_cartographer cartographer.launch.py use_sim_time:=True
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+## Terminal 2 – navigation
+```bash
+source install/setup.bash
+ros2 launch robot_navigation2 navigation2.launch.py
+```
 
 
