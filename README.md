@@ -24,7 +24,7 @@ ros2 launch code_py ejecutar.launch.py
 ```
 
 ##  Abrir la interfaz web
-👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
+ [http://127.0.0.1:5000](http://127.0.0.1:5000)
 ---
 
 ## Terminal 3 – Abrir RVIZ - Jpack2
@@ -68,7 +68,7 @@ ros2 launch robot_description view_robot.py
 
 
 
-##  Navegation 
+##  Problemas con navegacion
 
 ## Terminal 1 – jpac2_ws
 
@@ -84,9 +84,9 @@ source install/setup.bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True 
 ```
 
-##  Navegacion - navegacion_ws
+##  FASE 5 - NAVEGACION - navegacion_ws
 
-## Terminal 1 – gazebo
+## Terminal 1 – Gazebo
 
 ```bash
 colcon build 
@@ -94,14 +94,14 @@ source install/setup.bash
 ros2 launch robot_description gazebo.launch.py
 ros2 launch robot_description pc2_to_scan.launch.py 
 ```
-## Terminal 2 – cartographer
+## Terminal 2 – Cartographer
 ```bash
 source install/setup.bash
 ros2 launch robot_cartographer cartographer.launch.py use_sim_time:=True
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-## Terminal 2 – navigation
+## Terminal 3 – Navigation
 ```bash
 source install/setup.bash
 ros2 launch robot_navigation2 navigation2.launch.py
