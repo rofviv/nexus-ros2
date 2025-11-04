@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:77 (file):
-  file INSTALL cannot find
-  "/home/leyla/Desktop/Presentar/navegation_ws/src/robot_description/scripts/lidar3d.py":
-  No such file or directory.
-
-[0m

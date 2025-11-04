@@ -1,9 +1,0 @@
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/uninstall.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/robot_cartographer_uninstall.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/test.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/edit_cache.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/rebuild_cache.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/list_install_components.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/install.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/install/local.dir
-/home/leyla/Desktop/Presentar/navegation_ws/build/robot_cartographer/CMakeFiles/install/strip.dir
