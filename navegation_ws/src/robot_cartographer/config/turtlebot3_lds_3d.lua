@@ -22,7 +22,7 @@ options = {
   odom_frame = "odom",
 
   provide_odom_frame = false,       
-  publish_frame_projected_to_2d = false,  -- << en 3D 
+  publish_frame_projected_to_2d = false,  -- << en 3D  = true
 
   use_odometry = true,            
   use_nav_sat = false,
