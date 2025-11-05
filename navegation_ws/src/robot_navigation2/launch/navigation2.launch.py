@@ -6,26 +6,24 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
-
-# ---------------------- Nav2 , AMCL <-------------------------------
-
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
 
-    map_dir = LaunchConfiguration('map')
-
+    # pakage .yaml
     default_params = os.path.join(
-        get_package_share_directory('turtlebot3_navigation2'),
-        'param',
-        'humble',
-        'conf_jpac2.yaml'
+        get_package_share_directory('robot_navigation2'),   
+        'param', 'humble', 'conf_jpac2.yaml'
     )
 
-    param_dir = LaunchConfiguration(
-        'params_file',
-        default=default_params
+    # map
+    default_map = os.path.join(
+        get_package_share_directory('robot_navigation2'),   
+        'map', 'BIONDA.yaml'
     )
+
+    param_dir = LaunchConfiguration('params_file', default=default_params)
+    map_dir   = LaunchConfiguration('map',         default=default_map)
 
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
     rviz_config_dir = os.path.join(
@@ -35,24 +33,21 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-
         DeclareLaunchArgument(
             'map',
-            default_value='/home/leyla/Desktop/Presentar/navegation_ws/src/robot_navigation2/map/BIONDA.yaml',
-            description='Direcccion completa a  yaml.'
+            default_value=map_dir,
+            description='Ruta al YAML del mapa (map_server).',
         ),
-
         DeclareLaunchArgument(
             'params_file',
             default_value=param_dir,
-            description='Full path to Nav2 params.'
+            description='Ruta al YAML de parámetros de Nav2.',
         ),
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='true',
-            description='Use simulation clock.'
+            description='Usar reloj de simulación.',
         ),
-
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([nav2_launch_file_dir, '/bringup_launch.py']),
             launch_arguments={
@@ -61,12 +56,12 @@ def generate_launch_description():
                 'params_file': param_dir
             }.items(),
         ),
-
         Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2',
             arguments=['-d', rviz_config_dir],
             parameters=[{'use_sim_time': use_sim_time}],
-            output='screen'),
+            output='screen'
+        ),
     ])
