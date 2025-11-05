@@ -19,14 +19,14 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     use_rviz = LaunchConfiguration('use_rviz', default='true')
 
-    turtlebot3_cartographer_prefix = get_package_share_directory('turtlebot3_cartographer')
+    turtlebot3_cartographer_prefix = get_package_share_directory('robot_cartographer')
     cartographer_config_dir = LaunchConfiguration('cartographer_config_dir', default=os.path.join(
                                                   turtlebot3_cartographer_prefix, 'config'))
     
 
 
     configuration_basename = LaunchConfiguration('configuration_basename',
-                                                 default='turtlebot3_lds_2d.lua') # turtlebot3_lds_2d.lua
+                                                 default='turtlebot3_lds_2d.lua') # mapeo 3d = turtlebot3_lds_3d.lua
     
 
 
